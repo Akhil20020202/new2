@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no">
+    <title>Responsive Web Page</title>
+<!--    Adding local bootstrap downloaded file. Not using cdn        -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    html, body { 
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background: url(./bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(https://www.pexels.com/photo/time-lapse-photography-of-waterfalls-during-sunset-210186/);
+  }
+  #result{
+      position: relative;
+      margin-top: 2.5%;
+      transition: 0.5s;
+  }
+  #result:hover{
+      border: solid 2px orange;
+      transform: scale(2, 2);
+     color: yellow;
+    font-family: cursive;
+
+  }
+
+
+</style>
+</head>
+<body>
+<div class="container-fluid">
+    <h1 class="text-uppercase" style="color: #fcff50;">nature photos</h1>
+    <button class="btn btn-info btn-lg active" id="result">clicl here for more!</button>
+</div>
+</body>
+</html>
